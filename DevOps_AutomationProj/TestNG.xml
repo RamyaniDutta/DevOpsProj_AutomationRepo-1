@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" allow-return-values="true">
+    <!--<parameter name="browser" value="chrome"/>-->
+    <!-- <parameter name="browser" value="lambdaTest"/>-->
+    <parameter name="url" value="http://localhost:8080/CoreProject_DevOps/"/>
+
+    <test name="DevOps Automation">
+        <classes>
+            <class name="TestClass"/>
+        </classes>
+
+    </test>
+
+
+</suite>

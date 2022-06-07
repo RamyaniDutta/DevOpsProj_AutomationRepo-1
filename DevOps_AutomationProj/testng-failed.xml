@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" allow-return-values="true">
+  <parameter name="url" value="http://localhost:8080/CoreProject_DevOps/"/>
+  <test thread-count="5" name="DevOps Automation(failed)">
+    <classes>
+      <class name="TestClass">
+        <methods>
+          <include name="Test1"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- TestClass -->
+    </classes>
+  </test> <!-- DevOps Automation(failed) -->
+</suite> <!-- Failed suite [Suite] -->
