@@ -12,14 +12,11 @@ import java.util.concurrent.TimeUnit;
 
 
 public class TestClass {
-
-    String url;
+    
     WebDriver driver;
 
-    @Parameters({"url"})
     @BeforeClass
-    public void init(String URLpath){
-        url=URLpath;
+    public void init(){
 
         ChromeOptions options=new ChromeOptions();
         options.setHeadless(true);
@@ -30,7 +27,7 @@ public class TestClass {
         driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 
-        driver.get(url);
+        driver.get("http://localhost:8080/CoreProject_DevOps/");
 
     }
 

@@ -3,7 +3,7 @@
 <suite name="Suite" allow-return-values="true">
     <!--<parameter name="browser" value="chrome"/>-->
     <!-- <parameter name="browser" value="lambdaTest"/>-->
-    <parameter name="url" value="http://localhost:8080/CoreProject_DevOps/"/>
+    <!--<parameter name="url" value="http://localhost:8080/CoreProject_DevOps/"/>-->
 
     <test name="DevOps Automation">
         <classes>
