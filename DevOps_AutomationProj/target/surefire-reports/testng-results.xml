@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-29T12:45:57 IST" name="TestClass" finished-at="2024-02-29T12:46:01 IST" duration-ms="4132">
+  <suite started-at="2024-02-29T17:26:32 IST" name="TestClass" finished-at="2024-02-29T17:26:37 IST" duration-ms="4255">
     <groups>
     </groups>
-    <test started-at="2024-02-29T12:45:57 IST" name="Command line test" finished-at="2024-02-29T12:46:01 IST" duration-ms="4132">
+    <test started-at="2024-02-29T17:26:32 IST" name="Command line test" finished-at="2024-02-29T17:26:37 IST" duration-ms="4255">
       <class name="TestClass$TestC">
-        <test-method is-config="true" signature="initRun()[pri:0, instance:TestClass$TestC@49c43f4e]" started-at="2024-02-29T12:45:57 IST" name="initRun" finished-at="2024-02-29T12:46:01 IST" duration-ms="3905" status="PASS">
+        <test-method is-config="true" signature="initRun()[pri:0, instance:TestClass$TestC@49c43f4e]" started-at="2024-02-29T17:26:32 IST" name="initRun" finished-at="2024-02-29T17:26:36 IST" duration-ms="4040" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initRun -->
-        <test-method signature="RunTestForDevOps()[pri:0, instance:TestClass$TestC@49c43f4e]" started-at="2024-02-29T12:46:01 IST" name="RunTestForDevOps" finished-at="2024-02-29T12:46:01 IST" duration-ms="85" status="PASS">
+        <test-method signature="RunTestForDevOps()[pri:0, instance:TestClass$TestC@49c43f4e]" started-at="2024-02-29T17:26:36 IST" name="RunTestForDevOps" finished-at="2024-02-29T17:26:37 IST" duration-ms="93" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RunTestForDevOps -->
-        <test-method is-config="true" signature="FinalTask()[pri:0, instance:TestClass$TestC@49c43f4e]" started-at="2024-02-29T12:46:01 IST" name="FinalTask" finished-at="2024-02-29T12:46:01 IST" duration-ms="107" status="PASS">
+        <test-method is-config="true" signature="FinalTask()[pri:0, instance:TestClass$TestC@49c43f4e]" started-at="2024-02-29T17:26:37 IST" name="FinalTask" finished-at="2024-02-29T17:26:37 IST" duration-ms="88" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FinalTask -->
