@@ -40,7 +40,7 @@ public class TestClass {
 
             WebElement elm=wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.tagName("h1"))));
             String Act=elm.getText();
-            Assert.assertEquals(Act,"My Project for Dev1");
+            Assert.assertEquals(Act,"My Project for Dev");
         }
 
         @AfterTest
