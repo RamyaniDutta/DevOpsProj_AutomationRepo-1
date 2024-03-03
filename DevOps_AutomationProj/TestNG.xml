@@ -7,7 +7,7 @@
 
     <test name="DevOps Automation">
         <classes>
-            <class name="TestClass1"/>
+            <class name="TestClass"/>
 
         </classes>
 
